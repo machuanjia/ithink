@@ -1,17 +1,9 @@
-<!--
- * @Author: Cookie
- * @Date: 2021-03-03 13:15:56
- * @LastEditors: Cookie
- * @LastEditTime: 2021-03-03 14:42:07
- * @Description: 
--->
-
 # 快速开始
 
 <p align="center">
-    <img alt="logo" src="https://avatars.githubusercontent.com/u/79920730" width="300" height="300">
+    <img alt="logo" src="https://arbeit.oss-cn-beijing.aliyuncs.com/logo.png" width="200">
 </p>
-<p align="center">从零打造一套企业级react 组件库生态</p>
+<p align="center">Ithink</p>
 
 
 ## 安装

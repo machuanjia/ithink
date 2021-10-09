@@ -1,8 +1,8 @@
 /*
  * @Author: Cookie
  * @Date: 2021-03-03 13:15:14
- * @LastEditors: Cookie
- * @LastEditTime: 2021-03-05 17:15:42
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-10-09 16:18:30
  * @Description:
  */
 import { join } from 'path';
@@ -29,5 +29,5 @@ export default {
     ),
   },
   exportStatic: {},
-  logo: 'https://avatars.githubusercontent.com/u/79920730',
+  logo: 'https://arbeit.oss-cn-beijing.aliyuncs.com/logo.png',
 };
