@@ -1,9 +1,9 @@
 {
-  "name": "@boty-design/themes",
+  "name": "@stillingar/themes",
   "version": "1.0.1",
   "description": "> TODO: description",
-  "author": "boty",
-  "homepage": "https://github.com/boty-design/boty-design#readme",
+  "author": "D.Y",
+  "homepage": "https://github.com/stillingar/stillingar#readme",
   "license": "ISC",
   "directories": {
     "lib": "lib",
@@ -14,13 +14,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boty-design/boty-design.git"
+    "url": "git+https://github.com/stillingar/stillingar.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/boty-design/boty-design/issues"
+    "url": "https://github.com/stillingar/stillingar/issues"
   },
   "gitHead": "e672c3c1d4971d8b81c231c2adc79eca30db5ed8"
 }

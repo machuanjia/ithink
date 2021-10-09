@@ -1,4 +1,4 @@
-# `boty-design/components`
+# `stillingar/components`
 
 > TODO: description
 

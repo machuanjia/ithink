@@ -6,11 +6,11 @@
  * @Description:
  */
 import React, { useState } from 'react';
-import { Button, Select } from '@boty-design/components';
+import { Button, Select } from '@stillingar/components';
 import { LoadingOutlined, CheckOutlined } from '@ant-design/icons';
-import { useFormItem } from '@boty-design/form-generator';
-import Form from '@boty-design/form-generator/src/components/Form';
-import Field from '@boty-design/form-generator/src/components/Field';
+import { useFormItem } from '@stillingar/form-generator';
+import Form from '@stillingar/form-generator/src/components/Form';
+import Field from '@stillingar/form-generator/src/components/Field';
 
 function App() {
   const [count, setCount] = useState(0);

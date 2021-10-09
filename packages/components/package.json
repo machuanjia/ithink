@@ -1,9 +1,9 @@
 {
-  "name": "@boty-design/components",
+  "name": "@stillingar/components",
   "version": "0.0.1",
   "description": "> TODO: description",
-  "author": "boty",
-  "homepage": "https://github.com/boty-design/boty-design#readme",
+  "author": "D.Y",
+  "homepage": "https://github.com/stillingar/stillingar#readme",
   "license": "ISC",
   "main": "src/index.ts",
   "directories": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boty-design/boty-design.git"
+    "url": "git+https://github.com/stillingar/stillingar.git"
   },
   "scripts": {
     "dev": "vite",
@@ -27,7 +27,7 @@
     "prepublish": "yarn build"
   },
   "bugs": {
-    "url": "https://github.com/boty-design/boty-design/issues"
+    "url": "https://github.com/stillingar/stillingar/issues"
   },
   "dependencies": {
     "@ant-design/icons": "^4.5.0"

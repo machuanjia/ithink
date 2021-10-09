@@ -2,9 +2,9 @@ import invariant from 'invariant';
 import React, { useMemo } from 'react';
 import useFormContext from '../hooks/useFormContext';
 import { FormStoreProps, ExtractProps } from '../types';
-import usePrevious from '@boty-design/utils/src/usePrevious';
-import { Select } from '@boty-design/components';
-import { Merge } from '@boty-design/utils/src/merge';
+import usePrevious from '@stillingar/utils/src/usePrevious';
+import { Select } from '@stillingar/components';
+import { Merge } from '@stillingar/utils/src/merge';
 const fieldNames: Array<keyof FormStoreProps<any>> = [
   'touched',
   'values',

@@ -16,14 +16,14 @@
 
 ## 安装
 ```jsx| pure
-$ npm install boty-design --save
+$ npm install stillingar --save
 
-$ yarn add boty-design
+$ yarn add stillingar
 ```
 
 ## 使用
 ```jsx| pure
-import { Button } from "boty-design";
+import { Button } from "stillingar";
 
 const App = () => (
      <Button onClick={handlerSyncClick} loading={true}  >

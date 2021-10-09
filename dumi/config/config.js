@@ -8,8 +8,8 @@
 import { join } from 'path';
 
 export default {
-  base: '/boty-design',
-  publicPath: '/boty-design/',
+  base: '/stillingar',
+  publicPath: '/stillingar/',
   chainWebpack(memo) {
     memo.module
       .rule('js')
@@ -21,7 +21,7 @@ export default {
       .use('babel-loader');
   },
   alias: {
-    '@boty-design/components': join(
+    '@stillingar/components': join(
       __dirname,
       '..',
       '..',

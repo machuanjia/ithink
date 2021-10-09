@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { LoadingOutlined } from '@ant-design/icons';
-import { tuple } from '@boty-design/utils';
+import { tuple } from '@stillingar/utils';
 import { getPrefixCls } from '../config/provider';
 
 import './index.less';

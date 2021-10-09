@@ -1,9 +1,9 @@
 {
-  "name": "@boty-design/scripts",
+  "name": "@stillingar/scripts",
   "version": "1.0.0",
   "description": "项目中的各种脚本",
   "author": "gzg1023 <hotgzg@gmail.com>",
-  "homepage": "https://github.com/boty-design/boty-design#readme",
+  "homepage": "https://github.com/stillingar/stillingar#readme",
   "license": "MIT",
   "directories": {
     "lib": "lib"
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boty-design/boty-design.git"
+    "url": "git+https://github.com/stillingar/stillingar.git"
   },
   "scripts": {
     "generator": "plop --plopfile generator.js"
   },
   "bugs": {
-    "url": "https://github.com/boty-design/boty-design/issues"
+    "url": "https://github.com/stillingar/stillingar/issues"
   },
   "devDependencies": {
     "plop": "^2.7.4"
