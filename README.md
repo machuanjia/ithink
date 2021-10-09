@@ -1,26 +1,22 @@
 # ithink
 
 <p align="center">
-    <img alt="logo" src="https://avatars.githubusercontent.com/u/79920730" width="300" height="300">
+    <img alt="logo" src="https://arbeit.oss-cn-beijing.aliyuncs.com/logo.png" width="300" height="300">
 </p>
 <p align="center">从零打造一套企业级react 组件库生态</p>
 
 <p align="center">
-  <a href="https://github.com/ithink/ithink">
+  <a href="https://github.com/machuanjia/ithink">
     <img src="https://img.shields.io/badge/react-组件库-blue.svg" alt="vue">
   </a>
-  <a href="https://github.com/ithink/ithink">
+  <a href="https://github.com/machuanjia/ithink">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="element-ui">
   </a>
-  <a href="https://github.com/ithink/ithink">
+  <a href="https://github.com/machuanjia/ithink">
     <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="lerna">
   </a>
 </p>
 
-
-## 文档
-
-[中文文档](https://ithink.github.io/ithink/)
 
 ## 安装
 ```jsx
@@ -60,10 +56,10 @@ const App = () => (
 ❌ 未开始
 ### 通用
 - Button 按钮 ⭐️ 
-- Layout 布局 ❌
-- Icon 图标 ❌
+<!-- - Layout 布局 ❌
+- Icon 图标 ❌ -->
 
-### 表单
+<!-- ### 表单
 - Form 表单组 ⭐️ 
 - Field 表单单位 ⭐️ 
 - Input 输入框 ❌
@@ -99,7 +95,7 @@ const App = () => (
 
 - Message 消息提示 ❌
 - loading 加载 ❌
-- Notification 通知 ❌
+- Notification 通知 ❌ -->
 
 ## LICENSE
 
