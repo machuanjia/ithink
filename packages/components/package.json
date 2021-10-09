@@ -30,7 +30,10 @@
     "url": "https://github.com/ithink/ithink/issues"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.5.0"
+    "@ant-design/icons": "^4.5.0",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
   },
   "gitHead": "e672c3c1d4971d8b81c231c2adc79eca30db5ed8"
 }

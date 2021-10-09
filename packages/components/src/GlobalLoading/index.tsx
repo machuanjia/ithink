@@ -1,14 +1,13 @@
 /*
  * @Author: D.Y.M
  * @Date: 2021-10-09 16:06:52
- * @LastEditTime: 2021-10-09 16:30:49
+ * @LastEditTime: 2021-10-09 18:46:22
  * @FilePath: /doc-react-test/ithink/packages/components/src/GlobalLoading/index.tsx
  * @Description: 
  */
 import React from 'react';
 import classNames from 'classnames';
 import { getPrefixCls } from '../config/provider';
-
 import styles from './index.module.less';
 
 
@@ -57,7 +56,7 @@ const GlobalLoading = (props: IGlobalLoadingProps) => {
 
   return (
     <div
-      className={`${classes} ${styles['load-effect']}`}
+      className={`${classes} ${styles['load-effect']} bg-main bg-input`}
       style={customStyle}
     >
       <div className={styles['load-wrap']}>

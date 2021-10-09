@@ -2,7 +2,7 @@
  * @Author: Cookie
  * @Date: 2021-03-03 13:15:14
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-10-09 16:18:30
+ * @LastEditTime: 2021-10-09 19:34:06
  * @Description:
  */
 import { join } from 'path';
@@ -29,5 +29,5 @@ export default {
     ),
   },
   exportStatic: {},
-  logo: 'https://arbeit.oss-cn-beijing.aliyuncs.com/logo.png',
+  logo: 'https://arbeit.oss-cn-beijing.aliyuncs.com/logo.png'
 };

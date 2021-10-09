@@ -17,7 +17,8 @@
     "url": "git+https://github.com/ithink/ithink.git"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "tsc && vite build"
   },
   "bugs": {
     "url": "https://github.com/ithink/ithink/issues"

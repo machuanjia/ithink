@@ -1,9 +1,9 @@
 /*
  * @Author: Cookie
  * @Date: 2021-03-02 13:47:42
- * @LastEditors: Cookie
- * @LastEditTime: 2021-03-03 02:02:09
- * @FilePath: /vite-react-boty-desing/vite.config.ts
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-10-09 17:23:19
+ * @FilePath: /doc-react-test/ithink/packages/examples/vite.config.ts
  * @Description:
  */
 import { defineConfig } from 'vite';
@@ -17,4 +17,11 @@ export default defineConfig({
   },
   resolve: {},
   plugins: [reactRefresh()],
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
+  },
 });
