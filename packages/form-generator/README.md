@@ -1,11 +1,11 @@
-# `@stillingar/form-generator`
+# `@ithink/form-generator`
 
 > TODO: description
 
 ## Usage
 
 ```
-const formGenerator = require('@stillingar/form-generator');
+const formGenerator = require('@ithink/form-generator');
 
 // TODO: DEMONSTRATE API
 ```

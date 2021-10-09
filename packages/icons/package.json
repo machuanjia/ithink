@@ -1,9 +1,9 @@
 {
-  "name": "@stillingar/icons",
+  "name": "@ithink/icons",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "D.Y",
-  "homepage": "https://github.com/stillingar/stillingar#readme",
+  "homepage": "https://github.com/ithink/ithink#readme",
   "license": "ISC",
   "main": "lib/icons.js",
   "directories": {
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stillingar/stillingar.git"
+    "url": "git+https://github.com/ithink/ithink.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/stillingar/stillingar/issues"
+    "url": "https://github.com/ithink/ithink/issues"
   },
   "gitHead": "e672c3c1d4971d8b81c231c2adc79eca30db5ed8"
 }

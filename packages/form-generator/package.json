@@ -1,9 +1,9 @@
 {
-  "name": "@stillingar/form-generator",
+  "name": "@ithink/form-generator",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "D.Y",
-  "homepage": "https://github.com/stillingar/stillingar#readme",
+  "homepage": "https://github.com/ithink/ithink#readme",
   "license": "ISC",
   "main": "src/index.ts",
   "directories": {
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stillingar/stillingar.git"
+    "url": "git+https://github.com/ithink/ithink.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/stillingar/stillingar/issues"
+    "url": "https://github.com/ithink/ithink/issues"
   },
   "dependencies": {
     "invariant": "^2.2.4",

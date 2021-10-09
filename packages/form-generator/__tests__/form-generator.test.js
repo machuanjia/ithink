@@ -2,6 +2,6 @@
 
 const formGenerator = require('..');
 
-describe('@stillingar/form-generator', () => {
+describe('@ithink/form-generator', () => {
     it('needs tests');
 });

@@ -1,10 +1,10 @@
 {
-  "name": "@stillingar/examples",
+  "name": "@ithink/examples",
   "private": true,
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "D.Y",
-  "homepage": "https://github.com/stillingar/stillingar#readme",
+  "homepage": "https://github.com/ithink/ithink#readme",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stillingar/stillingar.git"
+    "url": "git+https://github.com/ithink/ithink.git"
   },
   "scripts": {
     "dev": "vite"
   },
   "bugs": {
-    "url": "https://github.com/stillingar/stillingar/issues"
+    "url": "https://github.com/ithink/ithink/issues"
   }
 }

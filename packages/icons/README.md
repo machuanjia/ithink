@@ -1,11 +1,11 @@
-# `@stillingar/icons`
+# `@ithink/icons`
 
 > TODO: description
 
 ## Usage
 
 ```
-const icons = require('@stillingar/icons');
+const icons = require('@ithink/icons');
 
 // TODO: DEMONSTRATE API
 ```

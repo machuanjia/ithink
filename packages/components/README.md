@@ -1,4 +1,4 @@
-# `stillingar/components`
+# `ithink/components`
 
 > TODO: description
 

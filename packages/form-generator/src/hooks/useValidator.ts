@@ -1,6 +1,6 @@
 import { useCallback, MutableRefObject } from 'react';
 import { ValidateRule, Wrapped, FormContext, ActionEnums } from '../types';
-import isPromise from '@stillingar/utils/src/isPromise';
+import isPromise from '@ithink/utils/src/isPromise';
 import { FormActions } from '../types';
 
 function setValidating<V>(

@@ -16,14 +16,14 @@
 
 ## 安装
 ```jsx| pure
-$ npm install stillingar --save
+$ npm install ithink --save
 
-$ yarn add stillingar
+$ yarn add ithink
 ```
 
 ## 使用
 ```jsx| pure
-import { Button } from "stillingar";
+import { Button } from "ithink";
 
 const App = () => (
      <Button onClick={handlerSyncClick} loading={true}  >

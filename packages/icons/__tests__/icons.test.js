@@ -2,6 +2,6 @@
 
 const icons = require('..');
 
-describe('@stillingar/icons', () => {
+describe('@ithink/icons', () => {
     it('needs tests');
 });

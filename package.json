@@ -1,15 +1,16 @@
 {
-  "name": "stillingar",
+  "name": "ithink",
+  "version":"0.0.1",
   "private": true,
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "lerna exec --scope \"@stillingar/examples\" yarn dev",
-    "build": "lerna run --parallel --scope \"@stillingar/*\" build",
+    "dev": "lerna exec --scope \"@ithink/examples\" yarn dev",
+    "build": "lerna run --parallel --scope \"@ithink/*\" build",
     "doc": "cross-env APP_ROOT=dumi dumi dev",
     "doc:build": "cross-env APP_ROOT=dumi dumi build",
-    "generator": "lerna exec --scope \"@stillingar/scripts\" yarn generator"
+    "generator": "lerna exec --scope \"@ithink/scripts\" yarn generator"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.11",

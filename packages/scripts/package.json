@@ -1,9 +1,9 @@
 {
-  "name": "@stillingar/scripts",
+  "name": "@ithink/scripts",
   "version": "1.0.0",
   "description": "项目中的各种脚本",
   "author": "gzg1023 <hotgzg@gmail.com>",
-  "homepage": "https://github.com/stillingar/stillingar#readme",
+  "homepage": "https://github.com/ithink/ithink#readme",
   "license": "MIT",
   "directories": {
     "lib": "lib"
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stillingar/stillingar.git"
+    "url": "git+https://github.com/ithink/ithink.git"
   },
   "scripts": {
     "generator": "plop --plopfile generator.js"
   },
   "bugs": {
-    "url": "https://github.com/stillingar/stillingar/issues"
+    "url": "https://github.com/ithink/ithink/issues"
   },
   "devDependencies": {
     "plop": "^2.7.4"

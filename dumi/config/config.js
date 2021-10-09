@@ -8,8 +8,8 @@
 import { join } from 'path';
 
 export default {
-  base: '/stillingar',
-  publicPath: '/stillingar/',
+  base: '/ithink',
+  publicPath: '/ithink/',
   chainWebpack(memo) {
     memo.module
       .rule('js')
@@ -21,7 +21,7 @@ export default {
       .use('babel-loader');
   },
   alias: {
-    '@stillingar/components': join(
+    '@ithink/components': join(
       __dirname,
       '..',
       '..',

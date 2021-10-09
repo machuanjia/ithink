@@ -6,11 +6,11 @@
  * @Description:
  */
 import React, { useState } from 'react';
-import { Button, Select } from '@stillingar/components';
+import { Button, Select } from '@ithink/components';
 import { LoadingOutlined, CheckOutlined } from '@ant-design/icons';
-import { useFormItem } from '@stillingar/form-generator';
-import Form from '@stillingar/form-generator/src/components/Form';
-import Field from '@stillingar/form-generator/src/components/Field';
+import { useFormItem } from '@ithink/form-generator';
+import Form from '@ithink/form-generator/src/components/Form';
+import Field from '@ithink/form-generator/src/components/Field';
 
 function App() {
   const [count, setCount] = useState(0);

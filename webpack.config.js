@@ -3,7 +3,7 @@
  * @Date: 2021-03-05 17:25:38
  * @LastEditors: Please set LastEditors
  * @LastEditTime: 2021-10-09 15:31:41
- * @FilePath: /doc-react-test/stillingar/webpack.config.js
+ * @FilePath: /doc-react-test/ithink/webpack.config.js
  * @Description: 
  */
 
@@ -15,7 +15,7 @@
 module.exports = {
   resolve: {
     alias: {
-      '@stillingar': require('path').resolve(__dirname, 'packages'), // eslint-disable-line
+      '@ithink': require('path').resolve(__dirname, 'packages'), // eslint-disable-line
     },
   },
 };
