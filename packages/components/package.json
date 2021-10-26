@@ -1,17 +1,18 @@
 {
   "name": "@ithink/components",
-  "version": "0.0.2",
+  "version": "0.0.11",
   "description": "> TODO: description",
   "author": "D.Y",
   "homepage": "https://github.com/ithink/ithink#readme",
   "license": "ISC",
-  "main": "src/index.ts",
+  "main": "dist/components.es.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist",
+    "src"
   ],
   "publishConfig": {
     "access": "public"
@@ -32,6 +33,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
     "autoprefixer": "^10.3.7",
+    "nprogress": "^0.2.0",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.16"
   },
