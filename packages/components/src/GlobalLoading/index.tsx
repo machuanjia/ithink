@@ -1,8 +1,8 @@
 /*
  * @Author: D.Y.M
  * @Date: 2021-10-09 16:06:52
- * @LastEditTime: 2021-10-09 18:46:22
- * @FilePath: /doc-react-test/ithink/packages/components/src/GlobalLoading/index.tsx
+ * @LastEditTime: 2021-10-26 16:55:19
+ * @FilePath: /ithink/packages/components/src/GlobalLoading/index.tsx
  * @Description: 
  */
 import React from 'react';
@@ -34,6 +34,7 @@ interface INativeGlobalLoadingProps {
    * @description 是否生效
    */
   disabled?: boolean;
+  description?: string
 }
 
 export type IGlobalLoadingProps = BaseProps & BaseGlobalLoadingProps & INativeGlobalLoadingProps;
@@ -44,6 +45,7 @@ const GlobalLoading = (props: IGlobalLoadingProps) => {
     prefixCls,
     className,
     style: customStyle,
+    description
   } = props;
 
 
@@ -55,26 +57,31 @@ const GlobalLoading = (props: IGlobalLoadingProps) => {
   );
 
   return (
-    <div
-      className={`${classes} ${styles['load-effect']} bg-main bg-input`}
+    <section
+      className={`${classes} ${styles['global-loading']}`}
       style={customStyle}
     >
-      <div className={styles['load-wrap']}>
-        <span className={styles['load-wrap-item']}></span>
+      <div className={`${styles['load-effect']}`}>
+        <div className={styles['load-wrap']}>
+          <span className={styles['load-wrap-item']}></span>
+        </div>
+        <div className={styles['load-wrap']}>
+          <span className={styles['load-wrap-item']}></span>
+        </div>
+        <div className={styles['load-wrap']}>
+          <span className={styles['load-wrap-item']}></span>
+        </div>
+        <div className={styles['load-wrap']}>
+          <span className={styles['load-wrap-item']}></span>
+        </div>
+        <div className={styles['load-wrap']}>
+          <span className={styles['load-wrap-item']}></span>
+        </div>
       </div>
-      <div className={styles['load-wrap']}>
-        <span className={styles['load-wrap-item']}></span>
-      </div>
-      <div className={styles['load-wrap']}>
-        <span className={styles['load-wrap-item']}></span>
-      </div>
-      <div className={styles['load-wrap']}>
-        <span className={styles['load-wrap-item']}></span>
-      </div>
-      <div className={styles['load-wrap']}>
-        <span className={styles['load-wrap-item']}></span>
-      </div>
-    </div>
+      {
+        description && <footer className=" text-lg text-secondary mt-8">{description}</footer>
+      }
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@
  * @Author: Cookie
  * @Date: 2021-02-27 16:11:42
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-10-09 16:46:36
+ * @LastEditTime: 2021-10-26 16:19:04
  * @Description:
  */
 import React, { useState } from 'react';
@@ -18,7 +18,7 @@ function App() {
   console.log('render');
   return (
     <div className="App">
-      <GlobalLoading/>
+      <GlobalLoading description="卓越、有爱"/>
     </div>
   );
 }

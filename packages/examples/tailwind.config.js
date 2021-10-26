@@ -1,3 +1,10 @@
+/*
+ * @Author: D.Y.M
+ * @Date: 2021-10-09 16:38:39
+ * @LastEditTime: 2021-10-26 16:12:30
+ * @FilePath: /ithink/packages/examples/tailwind.config.js
+ * @Description: 
+ */
 // const colors = require('tailwindcss/colors')
 const colors = require('./colors')
 
@@ -12,13 +19,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray:colors.gray,
-        blue:colors.blue,
-        blueGray:colors.blueGray,
-        green:colors.green,
-        yellow:colors.yellow,
+        gray: colors.gray,
+        blue: colors.blue,
+        blueGray: colors.blueGray,
+        green: colors.green,
+        yellow: colors.yellow,
         orange: colors.orange,
-        red: colors.red
+        red: colors.red,
       },
     },
     backgroundColor: {
@@ -26,6 +33,9 @@ module.exports = {
       main: 'var(--color-bg-main)',
       input: 'var(--color-bg-input)',
       disable: 'var(--color-bg-disable)',
+      primary: 'var(--color-bg-primary)',
+      hover: 'var(--color-bg-hover)',
+      active: 'var(--color-bg-active)'
     },
     textColor: {
       white: 'var(--color-text-white)',
@@ -35,9 +45,10 @@ module.exports = {
       placeholder: 'var(--color-text-placeholder)',
       icon: 'var(--color-icon)',
     },
-    borderColor:{
-      divider:'var(--color-divider)'
-    }
+    borderColor: {
+      divider: 'var(--color-divider)',
+      primary: 'var(--color-divider-primary)',
+    },
   },
   variants: {
     extend: {},
